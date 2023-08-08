@@ -12695,8 +12695,8 @@ body {
 
 .masthead h1, .masthead .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
@@ -12711,8 +12711,8 @@ body {
 
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 1rem;
+    line-height: 2rem;
   }
 }
 
@@ -12723,8 +12723,8 @@ body {
   }
 
   .masthead h1, .masthead .h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
     letter-spacing: 0.8rem;
   }
 
@@ -12749,6 +12749,10 @@ body {
 
 .projects-section .featured-text {
   padding: 2rem;
+}
+
+h2.title {
+  max-width: 50rem;
 }
 
 .projects-section .featured-text p:not(:first-of-type) {

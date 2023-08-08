@@ -28,8 +28,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">Accueil</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Services et produits</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#home">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#service">Services et produits</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">A propos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Blog</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
@@ -38,19 +38,19 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
+        <header class="masthead" id="home">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Votre santé, votre performance et votre succès sont nos priorités</h2>
+                        <h1 class="mx-auto my-0 text-uppercase mb-2">Votre santé, votre performance et votre succès sont nos priorités</h1>
+                        <!-- <h2 class="text-white-50 mx-auto mt-2 mb-5">Votre santé, votre performance et votre succès sont nos priorités</h2> -->
                         <a class="btn btn-primary" href="#about">Demande de Coaching</a>
                     </div>
                 </div>
             </div>
         </header>
         <!-- About-->
-        <section class="about-section text-center" id="about">
+        <!-- <section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
@@ -64,16 +64,16 @@
                 </div>
                 <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
             </div>
-        </section>
+        </section> -->
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+        <section class="projects-section bg-light" id="">
 
             <div class="container px-4 px-lg-5">
-                <h2 class="title">Pour les PARTICULIERS et ETUDIANTS</h2>
+                <h2 class="title mb-5 fw-bold text-center mx-auto">Pour les PARTICULIERS et ETUDIANTS</h2>
                 <!-- Coaching et conseil en orientation de vie-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
+                    <div class="col-xl-6 col-lg-6"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
+                    <div class="col-xl-6 col-lg-6">
                         <div class="featured-text text-lg-left right">
                             <h4>Coaching et conseil en orientation de vie :</h4>
                             <p class="text-black-50 mb-0">Personnel : développement personnel, confiance en soi, maîtrise de soi (mentale et émotionnelle)…</p>
@@ -83,7 +83,7 @@
                 </div>
                 <!-- Développement professionnel et études-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-4 col-lg-5">
+                    <div class="col-xl-6 col-lg-6">
                         <div class="featured-text text-lg-left left">
                             <h4>Développement professionnel et études :</h4>
                             <p class="text-black-50 mb-0">Détermination et/construction plan de formation, projet professionnel, carrière.</p>
@@ -93,12 +93,12 @@
                             <p class="text-black-50 mb-0">Parentalité : éducation des enfants</p>
                         </div>
                     </div>
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
+                    <div class="col-xl-6 col-lg-6"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
                 </div>
                 <!-- Santé et bien-être-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
+                    <div class="col-xl-6 col-lg-6"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
+                    <div class="col-xl-6 col-lg-6">
                         <div class="featured-text text-lg-left right">
                             <h4>Santé et bien-être :</h4>
                             <p class="text-black-50 mb-0">Accompagnement dans la prévention et la guérison de certaines maladies psychologiques et/ou physiques tels que le stress aigu, fatigue, burnout, l’anxiété, la dépression, instabilité de la tension artérielle, fréquents maux de tête...</p>
@@ -108,7 +108,7 @@
                     </div>
                 </div>
                 <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <!-- <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
@@ -116,6 +116,78 @@
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h4 class="text-white">Misty</h4>
                                     <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Project Two Row-->
+                <!-- <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Mountains</h4>
+                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Projects-->
+        <section class="projects-section bg-white" id="">
+
+            <div class="container px-4 px-lg-5">
+                <h2 class="title mb-5 fw-bold text-center mx-auto">POUR LES ENTREPRISES, DIRIGEANTS, ENTREPRENEURS, SOLOENTREPRENEURS, MANAGERS, EMPLOYES, ASSOCIATIONS</h2>
+                
+                <!-- Coaching, conseil et formation en Développement Personnel et Professionnel -->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="featured-text text-lg-left left">
+                            <h4>Coaching, conseil et formation en Développement Personnel et Professionnel :</h4>
+                            <p class="text-black-50 mb-0">gestion efficace des émotions, confiance en soi, maîtrise de soi, leadership personnel, gestion de stress, amélioration des relations interpersonnelles et résolution de conflit.</p>
+                            <p class="text-black-50 mb-0">- Intervention et animation diverses : atelier, réunion ludique et constructive (Lunch&Learn, motivational speech), team-building…</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
+                </div>
+                <!-- En plus, pour les Call-centers -->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-6 col-lg-6"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="featured-text text-lg-left right">
+                            <h4>En plus, pour les Call-centers :</h4>
+                            <p class="text-black-50 mb-0">Formation, conseil et accompagnement dans l’exploitation des logiciels CRM.</p>
+                            <p class="text-black-50 mb-0">Formation, conseil et accompagnement en rédaction de script, trame et en traitement d’objections.</p>
+                            <p class="text-black-50 mb-0">Formation, conseil et accompagnement de (futur) Team Leader, Superviseur et Responsable de Production.</p>
+                            <p class="text-black-50 mb-0">Formation, conseil et accompagnement en ouverture, démarrage ou développement d’activités</p>
+                            <p class="text-black-50 mb-0">Autres missions à votre demande</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="projects-section bg-light" id="service">
+
+            <div class="container px-4 px-lg-5">
+                <h2 class="title mb-5 fw-bold text-center mx-auto">Pour les PARTICULIERS et ETUDIANTS</h2>
+                
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Coaching et conseil en orientation de vie :</h4>
+                                    <p class="mb-0 text-white-50">Personnel : développement personnel, confiance en soi, maîtrise de soi (mentale et émotionnelle)…</p>
+                                    <p class="mb-0 text-white-50">Bien-être de la relation de couple, familiale, sociale…</p>
                                 </div>
                             </div>
                         </div>
@@ -128,8 +200,10 @@
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
+                                    <h4 class="text-white">Développement professionnel et études</h4>
+                                    <p class="mb-0 text-white-50">Détermination et/construction plan de formation, projet professionnel, carrière.</p>
+                                    <p class="mb-0 text-white-50">(Ré)orientation professionnelle (en cas de début de projet professionnel et changement de métier ou d’activité)</p>
+                                    <p class="mb-0 text-white-50">Relation professionnelle, résolution de conflits, préparation en vue d’une évolution de carrière…</p>
                                 </div>
                             </div>
                         </div>
@@ -137,32 +211,23 @@
                 </div>
             </div>
         </section>
+
+
         <!-- Signup-->
-        <section class="signup-section" id="signup">
+        <!-- <section class="signup-section" id="signup">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
                         <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
                         <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
+                            
                             <div class="row input-group-newsletter">
                                 <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
                                 <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
                             </div>
                             <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
                             <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3 mt-2 text-white">
                                     <div class="fw-bolder">Form submission successful!</div>
@@ -171,16 +236,12 @@
                                     <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
                         </form>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Contact-->
         <section class="contact-section bg-black">
             <div class="container px-4 px-lg-5">
