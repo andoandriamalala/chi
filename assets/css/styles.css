@@ -105,7 +105,7 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   /* background-color: var(--bs-body-bg); */
-  background-color: #8b7862;
+  background-color: #312f2c;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -12643,7 +12643,7 @@ body {
   }
 
   #mainNav.navbar-shrink {
-    background-color: #51391d;
+    background-color: #000;
   }
 
   #mainNav.navbar-shrink .navbar-brand {
@@ -12763,11 +12763,11 @@ h2.title {
 @media (min-width: 992px) {
   .projects-section .featured-text.right {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #e4df46;
+    border-left: 0.5rem solid #51391d;
   }
   .projects-section .featured-text.left {
     padding: 0 2rem 0 0;
-    border-right: 0.5rem solid #e4df46;
+    border-right: 0.5rem solid #51391d;
   }
 }
 
