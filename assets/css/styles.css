@@ -12794,6 +12794,7 @@ h2.big_title {
   position: relative;
   display: inline-block;
   margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 h2.big_title::after {
