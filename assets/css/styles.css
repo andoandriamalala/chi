@@ -12760,11 +12760,11 @@ h2.title {
 @media (min-width: 992px) {
   .projects-section .featured-text.right {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #51391d;
+    /*border-left: 0.5rem solid #51391d;*/
   }
   .projects-section .featured-text.left {
     padding: 0 2rem 0 0;
-    border-right: 0.5rem solid #51391d;
+    /*border-right: 0.5rem solid #51391d;*/
   }
 }
 
